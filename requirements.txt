@@ -3,4 +3,4 @@ flask-socketio
 psutil
 werkzeug
 simple-websocket
-
+eventlet
