@@ -2,6 +2,7 @@ flask
 flask-socketio
 psutil
 werkzeug
-simple-websocket
-eventlet
+gevent
 gunicorn
+gevent-websocket
+
