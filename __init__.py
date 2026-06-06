@@ -55,7 +55,7 @@ def init_db():
 
 def create_app():
     app = Flask(__name__)
-app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'nehost_ultra_pro_max_99')
+    app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY', 'nehost_ultra_pro_max_99')
     app.config['BASE_STORAGE'] = os.path.join(os.getcwd(), 'storage/instances')
     app.config['UPLOAD_FOLDER'] = os.path.join(os.getcwd(), 'static/uploads')
     
