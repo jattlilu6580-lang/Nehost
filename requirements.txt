@@ -4,3 +4,4 @@ psutil
 werkzeug
 simple-websocket
 eventlet
+gunicorn
